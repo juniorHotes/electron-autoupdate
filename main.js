@@ -1,6 +1,6 @@
 const {app, autoUpdater, dialog, BrowserWindow} = require('electron');
 
-const url = ``
+const url = `https://github.com/juniorHotes/electron-autoupdate.git`
 autoUpdater.setFeedURL({ url })
 
 let mainWindow;
